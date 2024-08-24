@@ -16,3 +16,6 @@ Flask-Markdown==0.3
 Flask-SQLAlchemy==2.1
 flask-marshmallow==0.7.0
 Sphinx==1.4.6
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
